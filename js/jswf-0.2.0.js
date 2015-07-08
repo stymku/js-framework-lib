@@ -1084,5 +1084,5 @@ function jsonReqObjData(){
 	
 	win.$e =  _handler;	
 	
-})();
+})(window);
 
