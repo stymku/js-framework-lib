@@ -21,11 +21,14 @@
 		
 		var obj = {a:'a',b:function(){},c:1};
 		
+		try{
 		/*obj.each(
 			function(e){
 				$e('<SPAN>').html(e +'').attachto(b);
 			}
 		)*/
+		}catch(e){}
+		
 		$e(obj).each(function(e){
 				$e('<SPAN>').html(e +'').attachto(b);
 			});
