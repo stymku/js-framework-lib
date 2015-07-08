@@ -167,7 +167,7 @@ function jsonReqObjData(){
 }
 
 
-(function(win){
+(function(window){
 	
 	
 	function u() {		
@@ -221,7 +221,7 @@ function jsonReqObjData(){
 	
 })(window);
 
-(function(win) {
+(function(window) {
 	function _handler(object,qm) {		
 		return new _handler.plugins.init(object,qm);								
 	}
