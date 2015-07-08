@@ -19,6 +19,12 @@
 
 		$e('<SPAN>').html('Master!+ Azim!+Test!').attachto(b);
 		
+		{a:'a',b:function(){},c:1}.each(
+			function(e){
+				$e('<SPAN>').html(e +'').attachto(b);
+			}
+		)
+		
 	}
 	
 </script>
