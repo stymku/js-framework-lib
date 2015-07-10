@@ -190,7 +190,7 @@ function jsonReqObjData(){
 		
 		extend:function(){
 			var key,_e,obj=arguments[0]||{},alen=arguments.length,pos=1,nested = false,O={},obje,exte;
-			this.isBool(obj) && (nested = obj, obj=arguments[1]||{},pos=2);			
+			this.isBool(obj) && (nested = obj, obj=arguments[1]||{},pos=2);
 			(alen == pos) && (obj = this,--pos);
 			for(;pos<alen;pos++)
 				if ((e=arguments[pos])!=null)
